@@ -1,0 +1,11 @@
+{
+  "name": "alchemy-repro",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "alchemy": "^0.43.1"
+  }
+}
