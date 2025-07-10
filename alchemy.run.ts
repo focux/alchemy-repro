@@ -9,6 +9,7 @@ export const apiWorker = await Worker("api", {
   name: "api-worker",
   entrypoint: "./src/index.ts",
   cwd: "packages/backend",
+  sourceMap: false,
 });
 
 export const webWorker = await Vite("website", {
